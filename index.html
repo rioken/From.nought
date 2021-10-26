@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>株式会社フロムノート</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<meta name="robots" content="index,follow">
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test/style.css">
+    <link rel="stylesheet" href="test/prittyprint.css">
+</head>
+<body>
+	<div id="luxy">
+		
+		<main id="main">
+            <div id="section01" class="vh-element" data-props="padding-top,padding-bottom" data-values="45,45">
+                <div id="bg-section01" class="luxy-el bg-section" data-speed-y="40"></div>
+				<div class="content-inner">
+					<div class="d-flex justify-content-center oleo">
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="-12">F</div>
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="-6">ｒ</div>
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="-3">o</div>
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="0">m</div>
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="3">.</div>
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="6">n</div>
+						<div class="luxy-el inner-el" data-horizontal="1" data-speed-x="12">o</div>
+                        <div class="luxy-el inner-el" data-horizontal="1" data-speed-x="12">u</div>
+                        <div class="luxy-el inner-el" data-horizontal="1" data-speed-x="12">g</div>
+                        <div class="luxy-el inner-el" data-horizontal="1" data-speed-x="12">h</div>
+                        <div class="luxy-el inner-el" data-horizontal="1" data-speed-x="12">t</div>
+					</div>
+                    <div class="text-center">
+                        <p>Inertia scroll and parallax effect plugin in Vanilla.js</p>
+                        <div><a href="https://github.com/min30327/luxy.js" class="btn btn-ghost" target="_blank">View on GitHub</a></div>
+                    </div>
+				</div>
+			</div>
+			<div id="section02">
+                <div class="container z-depth-2">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h3 class="oleo title text-center mb-3">Conceput</h3>
+                            <p>ここに会社のコンセプトを入力します</p>
+                           
+                            <p>text</p>
+                           
+                            <p>text</p>
+                            <div class="code-print">
+
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fog01" class="luxy-el vh-element" data-speed-y="-5" data-props="bottom" data-values="-30">
+                    <img src="test/img/fog01.png" alt="fog">
+                </div>
+            </div>
+			<div id="section03" class="vh-element" data-props="padding-top" data-values="50">
+                <div id="bg-section02" class="luxy-el bg-section" data-speed-y="-10"></div>
+            </div>
+            <div id="section04">
+
+                <div id="fog02" class="luxy-el vh-element" data-speed-y="-5" data-props="bottom" data-values="-50">
+                    <img src="test/img/fog01.png" alt="fog02">
+                </div>
+                <div class="container z-depth-2">
+                    <div class="row justify-content-center">
+ <div class="col-lg-8">
+<p>作品１</p>
+
+<p>作品２</p>
+<p>作品３</p>
+<p>作品４</p>
+   
+</div>
+                    </div>
+                </div>
+            </div>
+            <div id="section05" class="vh-element" data-props="padding-top" data-values="50">
+                <div id="bg-section03" class="luxy-el bg-section" data-speed-y="-10"></div>
+            </div>
+            <div id="section06">
+                <div class="container z-depth-2">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h3 class="oleo title text-center mb-3">ACCESS</h3>
+                            <table class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>住所</th>
+                                        <th>email</th>
+                                        <th>tel</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>〒161-0033東京都新宿区下落合２丁目１番８号</th>
+                                        <td>xxxx.com</td>
+                                        <td>000-000-000</td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+		</main>
+		<footer id="footer">
+            <div id="copyright">
+                 <p>&copy;2015 From.nought</p>
+            </div>      
+        </footer>
+	</div>
+	<script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js" defer></script>
+    <script src="test/script.js" charset="utf-8"></script>
+	<script src="dist/js/luxy.js" charset="utf-8"></script>
+	<script>
+		luxy.init({
+			wrapper: '#luxy',
+			targets : '.luxy-el',
+			wrapperSpeed:  0.08
+		});
+	</script>
+</body>
+</html>
